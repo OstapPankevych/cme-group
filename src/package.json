@@ -1,0 +1,17 @@
+{
+  "name": "cme-group-visualizer",
+  "version": "1.0.0",
+  "description": "The cme-group visualizer",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "author": "Ostap Pankevych",
+  "license": "ISC",
+  "repository": "https://github.com/OstapPankevych/cme-group",
+  "readme": "README.md",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.10"
+  }
+}
