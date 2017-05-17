@@ -5,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "test",
-    "start": "electron ."
+    "start": "electron .",
+    "lint": "eslint --fix ."
   },
   "author": "Ostap Pankevych",
   "license": "ISC",
   "repository": "https://github.com/OstapPankevych/cme-group",
   "readme": "README.md",
   "dependencies": {
-    "electron-prebuilt": "^1.4.10"
+    "electron-prebuilt": "^1.4.10",
+    "eslint": "^3.19.0"
   }
 }
